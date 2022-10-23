@@ -40,7 +40,6 @@ public class Util1 {
 		
 		public void moveToElement(WebDriver driver, WebElement element) {
 			Actions act = new Actions(driver);
-			
 			act.moveToElement(element).perform();
 		}
 		
